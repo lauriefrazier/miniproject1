@@ -1,4 +1,4 @@
-# miniproject1
-# INF 601 - Advanced Programming in Python
-# Laurie Frazier
-# Mini Project 1
+miniproject1
+INF 601 - Advanced Programming in Python
+Laurie Frazier
+Mini Project 1
