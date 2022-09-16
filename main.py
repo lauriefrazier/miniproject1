@@ -21,11 +21,15 @@ print(aaplPrices)
 #Create numpy array
 aaplarray = np.array(aaplPrices)
 
-#Create matplotlib graph
-plt.plot(aaplarray)
+#Create matplotlib graph, style, color, axis labels
+plt.plot(aaplarray,'-o', color="teal")
+plt.xlabel('Date')
+plt.ylabel('Price')
+plt.title("Apple Closing Prices from 8/30 to 9/14")
 
 #Show the graph
 plt.savefig("Charts/aapl.png")
 plt.show()
+
 
 
